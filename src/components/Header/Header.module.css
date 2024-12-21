@@ -1,0 +1,48 @@
+.header {
+  padding: 10px 20px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo {
+  width: 66px;
+  height: 52px;
+  margin-right: 186px;
+}
+
+.header__btn {
+  display: none;
+  background: var(--accent-color);
+}
+
+@media screen and (min-width: 736px) {
+  .header {
+    padding: 10px 32px;
+  }
+
+  .header__logo {
+    margin-right: 191px;
+  }
+
+  .header__btn {
+    display: block;
+  }
+
+  .header__mobileBtn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    padding: 10px 16px;
+  }
+
+  .header__logo {
+    margin-right: 735px;
+  }
+}
