@@ -1,11 +1,10 @@
 import { Button } from "../Button/Button";
 import { Container } from "../Container/Container";
-import { Section } from "../Section/Section";
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
   return (
-    <Section className={styles.hero}>
+    <section className="hero">
       <Container>
         <div className="hero__textComponents">
           <h1 className={styles.hero__title}>
@@ -20,9 +19,13 @@ export const Hero = () => {
           <Button className={styles.hero__btn}>Order Now</Button>
         </div>
         <div className={styles.slider}>
-          <img src="#" alt="slide" className={styles.slider__photo} />
+          <img
+            src="./images/hero-slider-img1.png"
+            alt="slide"
+            className={styles.slider__photo}
+          />
         </div>
       </Container>
-    </Section>
+    </section>
   );
 };

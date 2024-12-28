@@ -8,6 +8,7 @@
   font-family: Roboto;
   font-size: 28px;
   font-weight: 700;
+  text-align: left;
 }
 
 .hero__text {
@@ -17,13 +18,20 @@
   font-weight: 400;
   line-height: 150%;
   margin-bottom: 28px;
+  text-align: left;
 }
 
 .hero__btn {
   background: var(--accent-color);
+  justify-content: start;
+  margin-bottom: 91px;
 }
 
 .slider {
+  display: none;
+}
+
+.slider__photo {
   display: none;
 }
 
@@ -50,6 +58,14 @@
     width: 320px;
     height: 320px;
   }
+
+  .slider__photo {
+    display: block;
+  }
+
+  .hero__btn {
+    margin-bottom: 115px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -69,5 +85,9 @@
   .slider {
     width: 580px;
     height: 580px;
+  }
+
+  .hero__btn {
+    margin-bottom: 180px;
   }
 }

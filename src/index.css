@@ -5,3 +5,12 @@
 a {
   text-decoration: none;
 }
+
+button {
+  border: none;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
