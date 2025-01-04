@@ -1,5 +1,6 @@
 .offerings {
   padding: 41px 20px 60px 20px;
+  background-color: var(--bg-color);
 }
 
 .offerings__photo {
@@ -96,4 +97,3 @@
     display: none;
   }
 }
-
