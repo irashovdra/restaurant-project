@@ -6,7 +6,6 @@ import styles from "./Offerings.module.css";
 export const Offerings = () => {
   return (
     <section className={styles.offerings}>
-      <h2 className={styles.moduleClass}>SOMEHTING</h2>
       <img
         src="./images/apple.png"
         alt="apple"

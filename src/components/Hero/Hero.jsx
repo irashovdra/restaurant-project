@@ -6,7 +6,6 @@ export const Hero = () => {
   return (
     <section className="hero">
       <Container>
-        <h2 className={styles.moduleClass}>SOMETHING</h2>
         <div className="hero__textComponents">
           <h1 className={styles.hero__title}>
             Enjoy Your Favorite Food From Anywhere
