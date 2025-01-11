@@ -1,4 +1,10 @@
 import styles from "./Favorites.module.css";
+import Burger from "../../images/gamburger.png";
+import Pizza from "../../images/pizza.png";
+import Pasta from "../../images/pasta.png";
+import Chicken from "../../images/chicken.png";
+import Salad from "../../images/salad.png";
+import Borshch from "../../images/borshch.png";
 
 export const Favorites = () => {
   return (
@@ -10,42 +16,42 @@ export const Favorites = () => {
       <ul className={styles.favoritesList}>
         <li className={styles.favoritesList__item}>
           <img
-            src="../../images/gamburger.png"
+            src={Burger}
             alt="burger"
             className={styles.favoritesList__photo}
           />
         </li>
         <li className={styles.favoritesList__item}>
           <img
-            src="../../images/pasta.png"
+            src={Pasta}
             alt="pasta"
             className={styles.favoritesList__photo}
           />
         </li>
         <li className={styles.favoritesList__item}>
           <img
-            src="../../images/pizza.png"
+            src={Pizza}
             alt="pizza"
             className={styles.favoritesList__photo}
           />
         </li>
         <li className={styles.favoritesList__item}>
           <img
-            src="../../images/chicken.png"
+            src={Chicken}
             alt="chicken&rice"
             className={styles.favoritesList__photo}
           />
         </li>
         <li className={styles.favoritesList__item}>
           <img
-            src="../../images/salad.png"
+            src={Salad}
             alt="salad"
             className={styles.favoritesList__photo}
           />
         </li>
         <li className={styles.favoritesList__item}>
           <img
-            src="../../src/images/borshch.png"
+            src={Borshch}
             alt="borshch"
             className={styles.favoritesList__photo}
           />

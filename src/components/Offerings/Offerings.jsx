@@ -2,12 +2,13 @@ import { Title } from "../Title/Title";
 import { Text } from "../Text/Text";
 import { Button } from "../Button/Button";
 import styles from "./Offerings.module.css";
+import OfferingsPhoto from "../../images/apple.png";
 
 export const Offerings = () => {
   return (
     <section className={styles.offerings}>
       <img
-        src="./images/apple.png"
+        src={OfferingsPhoto}
         alt="apple"
         className={styles.offerings__photo}
       />

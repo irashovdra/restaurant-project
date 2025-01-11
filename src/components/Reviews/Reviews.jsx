@@ -1,4 +1,6 @@
 import styles from "./Reviews.module.css";
+import Review1 from "../../images/review1.png";
+import Review2 from "../../images/review2.png";
 
 export const Reviews = () => {
   return (
@@ -52,7 +54,7 @@ export const Reviews = () => {
           </p>
           <div className={styles.reviewsList__flex}>
             <img
-              src="../../images/review1.png"
+              src={Review1}
               alt="review1"
               className={styles.reviewsList__photo}
             />
@@ -106,7 +108,7 @@ export const Reviews = () => {
           </p>
           <div className={styles.reviewsList__flex}>
             <img
-              src="../../images/review2.png"
+              src={Review2}
               alt="review2"
               className={styles.reviewsList__photo}
             />

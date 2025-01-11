@@ -1,6 +1,7 @@
 import { Button } from "../Button/Button";
 import { Container } from "../Container/Container";
 import styles from "./Hero.module.css";
+import HeroSlide1 from "../../images/hero-slider-img1.png";
 
 export const Hero = () => {
   return (
@@ -16,14 +17,10 @@ export const Hero = () => {
             viverra ornare, eros dolor interdum nulla, ut commodo diam libero
             vitae erat.
           </p>
-          <Button className={styles.hero__btn}>Order Now</Button>
+          <Button >Order Now</Button>
         </div>
         <div className={styles.slider}>
-          <img
-            src="./images/hero-slider-img1.png"
-            alt="slide"
-            className={styles.slider__photo}
-          />
+          <img src={HeroSlide1} alt="slide" className={styles.slider__photo} />
         </div>
       </Container>
     </section>

@@ -8,15 +8,15 @@
   justify-content: center;
 }
 
+.header__container button {
+  display: none;
+  background: var(--accent-color);
+}
+
 .header__logo {
   width: 66px;
   height: 52px;
   margin-right: 186px;
-}
-
-.header__btn {
-  display: none;
-  background: var(--accent-color);
 }
 
 @media screen and (min-width: 736px) {
@@ -28,7 +28,11 @@
     margin-right: 191px;
   }
 
-  .header__btn {
+  .header__container button {
+    display: none;
+  }
+
+  .header__container button + button {
     display: block;
   }
 

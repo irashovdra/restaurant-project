@@ -2,6 +2,7 @@ import { Container } from "../Container/Container";
 import { Button } from "../Button/Button";
 import { NavigationList } from "../NavigationList/NavigationList";
 import styles from "./Header.module.css";
+import Logo from "../../images/header-logo.png";
 
 export const Header = () => {
   return (
@@ -9,11 +10,7 @@ export const Header = () => {
       <Container>
         <div className={styles.header__container}>
           <a className={styles.header__logo} href="/">
-            <img
-              className={styles.header__photo}
-              src="../../images/header-logo"
-              alt="logo"
-            />
+            <img className={styles.header__photo} src={Logo} alt="logo" />
           </a>
           <NavigationList />
           <button type="button" className={styles.header__mobileBtn}>
