@@ -1,37 +1,38 @@
 import { NavigationList } from "../NavigationList/NavigationList";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <NavigationList />
-      <p className="footer__text">Subscribe</p>
+      {/* <p className={styles.footer__text">Subscribe</p>
       <input
         placeholder="Enter your email"
         type="text"
-        className="footer__filling"
+        className={styles.footer__filling"
       />
-      <button className="footer__btn">Subscribe</button>
-      <p className="footer__conditions">
+      <button className={styles.footer__btn">Subscribe</button>
+      <p className={styles.footer__conditions">
         By subscribing you agree to with our Privacy Policy
-      </p>
-      <ul className="footerList">
-        <li className="footerList__item">
-          <a href="#" className="footerList__link">
+      </p> */}
+      <ul className={styles.footerList}>
+        <li className={styles.footerList__item}>
+          <a href="#" className={styles.footerList__link}>
             Privacy Policy
           </a>
         </li>
-        <li className="footerList__item">
-          <a href="#" className="footerList__link">
+        <li className={styles.footerList__item}>
+          <a href="#" className={styles.footerList__link}>
             Terms of Service
           </a>
         </li>
-        <li className="footerList__item">
-          <a href="#" className="footerList__link">
+        <li className={styles.footerList__item}>
+          <a href="#" className={styles.footerList__link}>
             Cookies Settings
           </a>
         </li>
       </ul>
-      <p className="footer__rights">2022 FoodSta. All right reserved.</p>
+      <p className={styles.footer__rights}>2022 FoodSta. All right reserved.</p>
     </footer>
   );
 };

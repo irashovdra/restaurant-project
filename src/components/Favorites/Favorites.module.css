@@ -27,11 +27,11 @@
 }
 
 .favoritesList__item {
-  max-width: 280px;
-  height: 282px;
-  border-radius: 139.658px;
+  border-radius: 139.305px;
   border: 11px solid var(--Yellow-main, #ffe550);
   background: var(--White, #fefefe);
+  max-width: 280px;
+  height: 282px;
   padding: 29px 28px;
 }
 

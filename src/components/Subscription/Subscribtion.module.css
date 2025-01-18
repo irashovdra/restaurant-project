@@ -45,6 +45,7 @@
   line-height: 150%;
   border-radius: 30px;
   background: var(--Button-green, #bbf330);
+  padding: 11px 22px;
 }
 
 @media screen and (min-width: 736px) {

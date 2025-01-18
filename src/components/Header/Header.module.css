@@ -9,8 +9,11 @@
 }
 
 .header__container button {
-  display: none;
   background: var(--accent-color);
+}
+
+.header__container button + button {
+  display: none;
 }
 
 .header__logo {
