@@ -1,13 +1,13 @@
 import { Button } from "../Button/Button";
 import { Container } from "../Container/Container";
 import styles from "./Hero.module.css";
-import HeroSlide1 from "../../images/hero-slider-img1.png";
+import { Slider } from "../Slider/Slider";
 
 export const Hero = () => {
   return (
-    <section className="hero">
+    <section className={styles.hero}>
       <Container>
-        <div className="hero__textComponents">
+        <div className={styles.hero__textComponents}>
           <h1 className={styles.hero__title}>
             Enjoy Your Favorite Food From Anywhere
           </h1>
@@ -17,10 +17,8 @@ export const Hero = () => {
             viverra ornare, eros dolor interdum nulla, ut commodo diam libero
             vitae erat.
           </p>
-          <Button >Order Now</Button>
-        </div>
-        <div className={styles.slider}>
-          <img src={HeroSlide1} alt="slide" className={styles.slider__photo} />
+          <Slider></Slider>
+          <Button>Order Now</Button>
         </div>
       </Container>
     </section>

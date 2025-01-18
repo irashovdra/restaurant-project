@@ -2,17 +2,10 @@ import React, { useState } from "react";
 import { Container } from "../Container/Container";
 import { Button } from "../Button/Button";
 import { NavigationList } from "../NavigationList/NavigationList";
-import { HeaderMobileModal } from "../MobileModal/HeaderMobileModal";
 import styles from "./Header.module.css";
 import Logo from "../../images/header-logo.png";
 
 export const Header = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const toggleModal = () => {
-    setIsModalOpen((prev) => !prev);
-  };
-
   return (
     <header className={styles.header}>
       <Container>
@@ -21,11 +14,7 @@ export const Header = () => {
             <img className={styles.header__photo} src={Logo} alt="logo" />
           </a>
           <NavigationList />
-          <button
-            type="button"
-            className={styles.header__mobileBtn}
-            onClick={toggleModal}
-          >
+          <button type="button" className={styles.header__mobileBtn}>
             <svg
               className={styles.header__icon}
               width="24"
@@ -43,7 +32,6 @@ export const Header = () => {
           <Button className={styles.header__btn}>Order Now</Button>
         </div>
       </Container>
-      <HeaderMobileModal isOpen={isModalOpen} onClose={toggleModal} />
     </header>
   );
 };

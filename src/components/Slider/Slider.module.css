@@ -1,0 +1,39 @@
+.slider {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 86px;
+}
+
+.slider__photo {
+  border-radius: 580px;
+  border: 26px solid var(--Yellow-main, #ffe550);
+  background: var(--White, #fefefe);
+}
+
+.slider__forward {
+  position: absolute;
+  top: 46%;
+  right: -4%;
+}
+
+.slider__backward {
+  position: absolute;
+  top: 46%;
+  left: -4%;
+}
+
+@media screen and (min-width: 736px) {
+  .slider {
+    display: block;
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .slider {
+    width: 580px;
+    height: 580px;
+  }
+}

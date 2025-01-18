@@ -1,6 +1,8 @@
 .offerings {
-  padding: 41px 20px 60px 20px;
-  background-color: var(--bg-color);
+  padding: 177px 20px 60px 20px;
+  background-image: url(../../images/offerings-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .offerings__photo {

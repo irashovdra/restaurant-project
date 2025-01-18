@@ -1,5 +1,6 @@
 .hero {
-  padding: 60px 20px 50px 20px;
+  padding: 159px 20px 80px 20px;
+  height: 410px;
 }
 
 .hero__title {
@@ -25,14 +26,6 @@
   background: var(--accent-color);
   justify-content: start;
   margin-bottom: 91px;
-}
-
-.slider {
-  display: none;
-}
-
-.slider__photo {
-  display: none;
 }
 
 @media screen and (min-width: 736px) {
@@ -76,10 +69,12 @@
   .hero__title {
     font-size: 48px;
     margin-bottom: 28px;
+    max-width: 500px;
   }
 
   .hero__text {
     margin-right: 152px;
+    max-width: 500px;
   }
 
   .slider {

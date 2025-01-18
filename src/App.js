@@ -7,6 +7,7 @@ import { Favorites } from "./components/Favorites/Favorites";
 import { Reviews } from "./components/Reviews/Reviews";
 import { Subscribtion } from "./components/Subscription/Subscribtion";
 import { Footer } from "./components/Footer/Footer";
+import { OrderModal } from "./components/OrderModal/OrderModal";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Reviews />
       <Subscribtion />
       <Footer />
+      <OrderModal />
     </div>
   );
 }
