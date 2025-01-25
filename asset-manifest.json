@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/restaurant-project/static/css/main.640d8ae2.css",
+    "main.js": "/restaurant-project/static/js/main.2b1b351c.js",
+    "static/media/hero-slider-img3.png": "/restaurant-project/static/media/hero-slider-img3.d1a3220b766ed75d4ba2.png",
+    "static/media/hero-slider-img1.png": "/restaurant-project/static/media/hero-slider-img1.9e3f4aadad5956a81eac.png",
+    "static/media/hero-slider-img2.png": "/restaurant-project/static/media/hero-slider-img2.312344a5437f776084cc.png",
+    "static/media/pizza.png": "/restaurant-project/static/media/pizza.be45ce72eb044c94c12e.png",
+    "static/media/pasta.png": "/restaurant-project/static/media/pasta.46860a94def55156e600.png",
+    "static/media/chicken.png": "/restaurant-project/static/media/chicken.df5a973988c2eeba2d3f.png",
+    "static/media/salad.png": "/restaurant-project/static/media/salad.fbf440d3f0a267728e08.png",
+    "static/media/borshch.png": "/restaurant-project/static/media/borshch.7d36ca18b5700d7175aa.png",
+    "static/media/gamburger.png": "/restaurant-project/static/media/gamburger.2c947a5659874b099eb8.png",
+    "static/media/apple.png": "/restaurant-project/static/media/apple.928f428c09d787ea4c60.png",
+    "index.html": "/restaurant-project/index.html",
+    "main.640d8ae2.css.map": "/restaurant-project/static/css/main.640d8ae2.css.map",
+    "main.2b1b351c.js.map": "/restaurant-project/static/js/main.2b1b351c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.640d8ae2.css",
+    "static/js/main.2b1b351c.js"
+  ]
+}
