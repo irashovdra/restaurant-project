@@ -27,12 +27,14 @@
 }
 
 .favoritesList__item {
-  border-radius: 139.305px;
+  border-radius: 50%;
   border: 11px solid var(--Yellow-main, #ffe550);
   background: var(--White, #fefefe);
-  max-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 282px;
-  padding: 29px 28px;
+  flex-shrink: 0;
 }
 
 .favoritesList__photo {
@@ -70,9 +72,7 @@
   }
 
   .favoritesList__item {
-    max-width: 336px;
     height: 338px;
-    padding: 35px 34px;
   }
 
   .favoritesList__photo {
@@ -99,9 +99,8 @@
   }
 
   .favoritesList__item {
-    max-width: 394px;
-    height: 397px;
-    padding: 41px 40px;
+    width: 395px;
+    height: 395px;
   }
 
   .favoritesList__photo {

@@ -3,7 +3,7 @@ import { Container } from "../Container/Container";
 import styles from "./Hero.module.css";
 import { Slider } from "../Slider/Slider";
 
-export const Hero = () => {
+export const Hero = ({ openModal }) => {
   return (
     <section className={styles.hero}>
       <Container>
@@ -18,7 +18,7 @@ export const Hero = () => {
             vitae erat.
           </p>
           <Slider></Slider>
-          <Button>Order Now</Button>
+          <Button openModal={openModal}>Order Now</Button>
         </div>
       </Container>
     </section>

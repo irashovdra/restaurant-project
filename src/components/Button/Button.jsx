@@ -1,8 +1,8 @@
 import styles from "./Button.module.css";
 
-export const Button = () => {
+export const Button = ({ openModal }) => {
   return (
-    <button type="button" className={styles.btn}>
+    <button onClick={openModal} className={styles.openButton} type="button">
       Order Now
     </button>
   );

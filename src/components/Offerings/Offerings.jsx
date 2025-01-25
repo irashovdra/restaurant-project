@@ -4,7 +4,7 @@ import { Button } from "../Button/Button";
 import styles from "./Offerings.module.css";
 import OfferingsPhoto from "../../images/apple.png";
 
-export const Offerings = () => {
+export const Offerings = ({ openModal }) => {
   return (
     <section className={styles.offerings}>
       <img
@@ -63,7 +63,9 @@ export const Offerings = () => {
             </p>
           </li>
         </ul>
-        <Button className={styles.offerings__btn}>Order Now</Button>
+        <Button openModal={openModal} className={styles.offerings__btn}>
+          Order Now
+        </Button>
         <button className="offerings__readMore">
           Read More
           <svg

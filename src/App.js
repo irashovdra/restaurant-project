@@ -8,20 +8,43 @@ import { Reviews } from "./components/Reviews/Reviews";
 import { Subscribtion } from "./components/Subscription/Subscribtion";
 import { Footer } from "./components/Footer/Footer";
 import { OrderModal } from "./components/OrderModal/OrderModal";
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Offerings />
-      <Favorites />
-      <Reviews />
-      <Subscribtion />
-      <Footer />
-      <OrderModal />
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    modalStatus: false,
+  };
+
+  openModal = () => {
+    this.setState({ modalStatus: true });
+  };
+
+  closeModal = () => {
+    this.setState({ modalStatus: false });
+  };
+
+  // checkStatusModal(openOrderModal) {
+  //   this.setState({ openModal: openOrderModal });
+  //   console.log(this.state.openOrderModal);
+  // }
+
+  render() {
+    return (
+      <div className="App">
+        <Header openModal={this.openModal} />
+        <Hero openModal={this.openModal} />
+        <Offerings openModal={this.openModal} />
+        <Favorites />
+        <Reviews />
+        <Subscribtion />
+        <Footer />
+        <OrderModal
+          closeModal={this.closeModal}
+          modalStatus={this.state.modalStatus}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -5,7 +5,7 @@ import { NavigationList } from "../NavigationList/NavigationList";
 import styles from "./Header.module.css";
 import Logo from "../../images/header-logo.png";
 
-export const Header = () => {
+export const Header = ({ openModal }) => {
   return (
     <header className={styles.header}>
       <Container>
@@ -29,7 +29,9 @@ export const Header = () => {
               />
             </svg>
           </button>
-          <Button className={styles.header__btn}>Order Now</Button>
+          <Button openModal={openModal} className={styles.header__btn}>
+            Order Now
+          </Button>
         </div>
       </Container>
     </header>
