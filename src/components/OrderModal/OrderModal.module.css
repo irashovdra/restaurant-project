@@ -1,9 +1,15 @@
 .backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: rgba(94, 99, 99, 0.7);
+  /* pointer-events: none; */
 }
 
 .orderModal {
-  position: fixed;
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -16,14 +22,23 @@
   justify-content: center;
 }
 
+.orderModalList__item {
+  position: relative;
+}
+
 .orderModal__close {
   position: absolute;
+  width: 32px;
+  height: 32px;
   top: 16px;
   right: 16px;
   background-color: #fff;
   border-radius: 50%;
   padding: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .orderModal__title {
@@ -42,6 +57,7 @@
   font-weight: 500;
   line-height: 140%;
   margin-bottom: 2px;
+  padding-left: 12px;
 }
 
 .orderModalList__filling {
@@ -50,12 +66,19 @@
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15) inset;
   padding: 14px 12px;
-  max-width: 256px;
   width: 100%;
+  box-sizing: border-box;
+}
+
+.orderModalList__filling:focus {
+  border: 1.5px solid var(--focus-color);
 }
 
 .orderModalList {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 32px;
+  gap: 24px;
 }
 
 .orderModal__send {
@@ -76,19 +99,17 @@
 
 @media screen and (min-width: 736px) {
   .orderModal {
-    width: 458px;
+    max-width: 458px;
     padding: 32px;
   }
 
-  .orderModalList__filling {
-    max-width: 370px;
+  .orderModalList__item {
+    display: flex;
+    flex-direction: column;
   }
 
   .orderModal__close {
     top: 12px;
     right: 12px;
   }
-}
-
-@media screen and (min-width: 1280px) {
 }

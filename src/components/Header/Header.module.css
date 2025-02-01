@@ -14,7 +14,6 @@
 
 .header__container button + button {
   display: none;
-  max-width: 100px;
   flex-shrink: 0;
 }
 
@@ -39,6 +38,8 @@
 
   .header__container button + button {
     display: block;
+    border-radius: 30px;
+    padding: 6px 18px;
   }
 
   .header__mobileBtn {

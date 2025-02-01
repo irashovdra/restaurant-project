@@ -38,10 +38,7 @@ class App extends React.Component {
         <Reviews />
         <Subscribtion />
         <Footer />
-        <OrderModal
-          closeModal={this.closeModal}
-          modalStatus={this.state.modalStatus}
-        />
+        {this.state.modalStatus && <OrderModal closeModal={this.closeModal} />}
       </div>
     );
   }
