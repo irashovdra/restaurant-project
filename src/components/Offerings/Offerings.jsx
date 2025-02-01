@@ -4,16 +4,30 @@ import { Button } from "../Button/Button";
 import styles from "./Offerings.module.css";
 import OfferingsPhoto from "../../images/apple.png";
 import { Container } from "../Container/Container";
+import MediumApple from "../../images/tablet-medium-apple.png";
+import SmallApple from "../../images/tablet-small-apple.png";
 
 export const Offerings = ({ openModal }) => {
   return (
     <section className={styles.offerings}>
       <Container>
-        <img
-          src={OfferingsPhoto}
-          alt="apple"
-          className={styles.offerings__photo}
-        />
+        <div className={styles.offerings__photosFlex}>
+          <img
+            src={OfferingsPhoto}
+            alt="apple"
+            className={styles.offerings__photo}
+          />
+          <img
+            src={MediumApple}
+            alt="medium-apple"
+            className={styles.offerings__mediumApple}
+          />
+          <img
+            src={SmallApple}
+            alt="small-apple"
+            className={styles.offerings__smallApple}
+          />
+        </div>
         <div className="offerings__flex">
           <Title className={styles.offerings__title}>
             What’s Special About Our Offerings

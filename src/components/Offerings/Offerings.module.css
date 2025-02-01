@@ -44,7 +44,7 @@
   margin-bottom: 28px;
 }
 
-.offerings__btn {
+.offerings__flex button {
   margin-right: 24px;
   background: #fff;
   border: 2px solid var(--accent-color);
@@ -56,6 +56,26 @@
   font-size: 13.667px;
   font-weight: 400;
   line-height: 150%;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.offerings__mediumApple {
+  display: none;
+  width: 166px;
+  height: 211px;
+  margin-left: 29px;
+  margin-right: 44px;
+}
+
+.offerings__smallApple {
+  display: none;
+  width: 108px;
+  height: 136px;
+}
+
+.offerings__photosFlex {
+  display: flex;
   align-items: center;
 }
 
@@ -77,6 +97,14 @@
     gap: 116px;
     margin-bottom: 40px;
   }
+
+  .offerings__mediumApple {
+    display: block;
+  }
+
+  .offerings__smallApple {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -96,6 +124,14 @@
   }
 
   .offerings__readMore {
+    display: none;
+  }
+
+  .offerings__mediumApple {
+    display: none;
+  }
+
+  .offerings__smallApple {
     display: none;
   }
 }
