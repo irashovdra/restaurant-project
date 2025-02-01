@@ -85,6 +85,7 @@
   }
 
   .reviewsList {
+    flex-wrap: nowrap;
     gap: 32px;
   }
 
