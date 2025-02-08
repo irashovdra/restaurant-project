@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restaurant-project/static/css/main.9d67966d.css",
-    "main.js": "/restaurant-project/static/js/main.4ea98beb.js",
+    "main.css": "/restaurant-project/static/css/main.27a79f89.css",
+    "main.js": "/restaurant-project/static/js/main.23b94b04.js",
     "static/media/hero-slider-img3.png": "/restaurant-project/static/media/hero-slider-img3.d1a3220b766ed75d4ba2.png",
     "static/media/hero-slider-img1.png": "/restaurant-project/static/media/hero-slider-img1.9e3f4aadad5956a81eac.png",
     "static/media/hero-slider-img2.png": "/restaurant-project/static/media/hero-slider-img2.312344a5437f776084cc.png",
@@ -10,16 +10,17 @@
     "static/media/chicken.png": "/restaurant-project/static/media/chicken.df5a973988c2eeba2d3f.png",
     "static/media/salad.png": "/restaurant-project/static/media/salad.fbf440d3f0a267728e08.png",
     "static/media/borshch.png": "/restaurant-project/static/media/borshch.7d36ca18b5700d7175aa.png",
+    "static/media/footer-bg.png": "/restaurant-project/static/media/footer-bg.cc2e49d32f526d79e57b.png",
     "static/media/gamburger.png": "/restaurant-project/static/media/gamburger.2c947a5659874b099eb8.png",
     "static/media/apple.png": "/restaurant-project/static/media/apple.361b1d7fca87d9eaf5d5.png",
     "static/media/tablet-medium-apple.png": "/restaurant-project/static/media/tablet-medium-apple.72b448b681c6ed9a9b9f.png",
     "static/media/tablet-small-apple.png": "/restaurant-project/static/media/tablet-small-apple.a68daa3e1dab48533ded.png",
     "index.html": "/restaurant-project/index.html",
-    "main.9d67966d.css.map": "/restaurant-project/static/css/main.9d67966d.css.map",
-    "main.4ea98beb.js.map": "/restaurant-project/static/js/main.4ea98beb.js.map"
+    "main.27a79f89.css.map": "/restaurant-project/static/css/main.27a79f89.css.map",
+    "main.23b94b04.js.map": "/restaurant-project/static/js/main.23b94b04.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d67966d.css",
-    "static/js/main.4ea98beb.js"
+    "static/css/main.27a79f89.css",
+    "static/js/main.23b94b04.js"
   ]
 }
