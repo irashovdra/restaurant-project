@@ -5,7 +5,7 @@ import { Slider } from "../Slider/Slider";
 
 export const Hero = ({ openModal }) => {
   return (
-    <section className={styles.hero}>
+    <section id="hero" className={styles.hero}>
       <Container>
         <div className={styles.hero__textComponents}>
           <h1 className={styles.hero__title}>

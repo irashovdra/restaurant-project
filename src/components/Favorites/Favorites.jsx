@@ -9,7 +9,7 @@ import { Container } from "../Container/Container";
 
 export const Favorites = () => {
   return (
-    <section className={styles.favorites}>
+    <section id="favorites" className={styles.favorites}>
       <Container>
         <h2 className={styles.favorites__title}>Some of Our Favorites</h2>
         <p className={styles.favorites__text}>

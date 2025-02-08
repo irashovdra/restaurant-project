@@ -27,12 +27,13 @@
 }
 
 .favoritesList__item {
-  border-radius: 50%;
+  border-radius: 50%; /* Кругла форма */
   border: 11px solid var(--Yellow-main, #ffe550);
   background: var(--White, #fefefe);
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 282px;
   height: 282px;
   flex-shrink: 0;
 }
@@ -40,6 +41,7 @@
 .favoritesList__photo {
   width: 223px;
   height: 223px;
+  border-radius: 50%;
 }
 
 .favoritesList:nth-child(4) {
@@ -72,11 +74,12 @@
   }
 
   .favoritesList__item {
-    height: 338px;
+    width: 320px;
+    height: 320px;
   }
 
   .favoritesList__photo {
-    width: 269px;
+    width: 268px;
     height: 268px;
   }
 

@@ -59,7 +59,6 @@ export class OrderModal extends React.Component {
   };
 
   render() {
-    console.log(this.state.userData);
     return (
       <div className={styles.backdrop}>
         <div className={styles.orderModal}>

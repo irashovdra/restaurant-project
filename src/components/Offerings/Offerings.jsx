@@ -9,7 +9,7 @@ import SmallApple from "../../images/tablet-small-apple.png";
 
 export const Offerings = ({ openModal }) => {
   return (
-    <section className={styles.offerings}>
+    <section id="offerings" className={styles.offerings}>
       <Container>
         <div className={styles.offerings__photosFlex}>
           <img

@@ -7,7 +7,7 @@ import Logo from "../../images/header-logo.png";
 
 export const Header = ({ openModal }) => {
   return (
-    <header className={styles.header}>
+    <header id="header" className={styles.header}>
       <Container>
         <div className={styles.header__container}>
           <a className={styles.header__logo} href="/">
