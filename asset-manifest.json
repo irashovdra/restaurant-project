@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restaurant-project/static/css/main.27a79f89.css",
-    "main.js": "/restaurant-project/static/js/main.23b94b04.js",
+    "main.css": "/restaurant-project/static/css/main.41010bda.css",
+    "main.js": "/restaurant-project/static/js/main.b799c4b1.js",
     "static/media/hero-slider-img3.png": "/restaurant-project/static/media/hero-slider-img3.d1a3220b766ed75d4ba2.png",
     "static/media/hero-slider-img1.png": "/restaurant-project/static/media/hero-slider-img1.9e3f4aadad5956a81eac.png",
     "static/media/hero-slider-img2.png": "/restaurant-project/static/media/hero-slider-img2.312344a5437f776084cc.png",
@@ -16,11 +16,11 @@
     "static/media/tablet-medium-apple.png": "/restaurant-project/static/media/tablet-medium-apple.72b448b681c6ed9a9b9f.png",
     "static/media/tablet-small-apple.png": "/restaurant-project/static/media/tablet-small-apple.a68daa3e1dab48533ded.png",
     "index.html": "/restaurant-project/index.html",
-    "main.27a79f89.css.map": "/restaurant-project/static/css/main.27a79f89.css.map",
-    "main.23b94b04.js.map": "/restaurant-project/static/js/main.23b94b04.js.map"
+    "main.41010bda.css.map": "/restaurant-project/static/css/main.41010bda.css.map",
+    "main.b799c4b1.js.map": "/restaurant-project/static/js/main.b799c4b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a79f89.css",
-    "static/js/main.23b94b04.js"
+    "static/css/main.41010bda.css",
+    "static/js/main.b799c4b1.js"
   ]
 }
