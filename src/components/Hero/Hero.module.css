@@ -1,6 +1,5 @@
 .hero {
-  padding: 159px 20px 80px 20px;
-  height: 410px;
+  padding: 60px 20px 50px 20px;
 }
 
 .hero__title {
@@ -25,7 +24,6 @@
 div + button {
   background-color: var(--accent-color);
   border-radius: 30px;
-  margin-bottom: 91px;
   padding: 6px 18px;
   color: var(--Black, #2c2c2c);
   text-align: right;

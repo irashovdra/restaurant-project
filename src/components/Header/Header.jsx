@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import { Container } from "../Container/Container";
 import { Button } from "../Button/Button";
 import { NavigationList } from "../NavigationList/NavigationList";
+import { MobileModal } from "../MobileModal/MobileModal"; 
 import styles from "./Header.module.css";
 import Logo from "../../images/header-logo.png";
 
 export const Header = ({ openModal }) => {
+  const [isMobileModalOpen, setMobileModalOpen] = useState(false);
+
   return (
     <header id="header" className={styles.header}>
       <Container>
@@ -14,7 +17,11 @@ export const Header = ({ openModal }) => {
             <img className={styles.header__photo} src={Logo} alt="logo" />
           </a>
           <NavigationList />
-          <button type="button" className={styles.header__mobileBtn}>
+          <button
+            type="button"
+            className={styles.header__mobileBtn}
+            onClick={() => setMobileModalOpen(true)}
+          >
             <svg
               className={styles.header__icon}
               width="24"
@@ -34,6 +41,9 @@ export const Header = ({ openModal }) => {
           </Button>
         </div>
       </Container>
+      {isMobileModalOpen && (
+        <MobileModal closeModal={() => setMobileModalOpen(false)} />
+      )}
     </header>
   );
 };

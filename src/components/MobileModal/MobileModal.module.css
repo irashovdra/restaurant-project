@@ -1,0 +1,32 @@
+.mobileModal {
+  width: 130px;
+  height: 255px;
+  border-radius: 30px 0px 30px 30px;
+  background: var(--White, #fefefe);
+  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 16px;
+}
+
+.mobileModal__close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.mobileList {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.mobileList__link {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}

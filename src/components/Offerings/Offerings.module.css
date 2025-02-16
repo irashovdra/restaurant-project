@@ -1,8 +1,15 @@
 .offerings {
-  padding: 177px 20px 60px 20px;
-  background-image: url(../../images/offerings-bg.png);
+  padding: 50px 20px 60px 20px;
+  background-image: url(../../images/offerings-mobile-bg.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.offeringsList {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
 }
 
 .offerings__photo {
@@ -11,10 +18,12 @@
 
 .offerings__title {
   margin-bottom: 28px;
+  display: none;
 }
 
 .offerings__text {
   margin-bottom: 28px;
+  display: none;
 }
 
 .offeringsList__icon {
@@ -89,6 +98,7 @@ ul + button {
 @media screen and (min-width: 736px) {
   .offerings {
     padding: 150px 32px 60px 32px;
+    background-image: url(../../images/offerings-bg.png);
   }
 
   .offerings__title {
@@ -103,6 +113,7 @@ ul + button {
     display: flex;
     gap: 116px;
     margin-bottom: 40px;
+    flex-direction: row;
   }
 
   .offerings__mediumApple {
@@ -117,6 +128,22 @@ ul + button {
 @media screen and (min-width: 1280px) {
   .offerings {
     padding: 177px 51px 43px 16px;
+  }
+
+  .offerings__title {
+    display: block;
+  }
+
+  .offerings__text {
+    display: block;
+  }
+
+  .offerings__photo {
+    width: 502px;
+    height: 502px;
+  }
+
+  .offerings__container {
     display: flex;
   }
 

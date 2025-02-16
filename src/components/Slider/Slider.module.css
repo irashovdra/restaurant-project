@@ -13,7 +13,7 @@
     width: 320px;
     height: 320px;
     position: absolute;
-    right: 140px;
+    right: 20px;
     top: 240px;
   }
 
@@ -46,8 +46,8 @@
   }
 
   .slider__photo {
-    width: 528px;
-    height: 528px;
+    width: 430px;
+    height: 430px;
     border: 26px solid var(--Yellow-main, #ffe550);
   }
 
